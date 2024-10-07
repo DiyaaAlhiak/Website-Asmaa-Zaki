@@ -1,0 +1,37 @@
+
+a{
+    color: #003077 !important;
+    text-decoration: none !important;
+    margin: 15px;
+    margin-top: 25px;
+  
+    z-index: 999;
+    position: relative;
+}
+
+body{
+    background-color: #84006c !important;
+}
+
+/* header{
+
+} */
+.img{
+    background-image: url('../img/Group\ 13.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 500px;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name,ul{
+    margin-top: 30px !important;
+}
