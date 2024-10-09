@@ -9,14 +9,10 @@ a{
     font-family: 'IBM Plex Sans JP', sans-serif !important;
 }
 
-
 body{
     background-color: #84006c !important;
     font-family: 'IBM Plex Sans JP', sans-serif !important;
 }
-
-
-
  /* start header */
 .img{
     background-image: url('../img/Group\ 13.png');
@@ -49,8 +45,6 @@ body{
     background-color: rgb(132 0 108 / 53%); 
     z-index: 1;
 }
-
-
  header .container nav{
     display: flex;
     justify-content: space-between;
@@ -62,8 +56,6 @@ body{
     z-index: 999;
     top: 0%;
 }
-
-
 header .container .name-designs,ul{
     margin-top: 30px !important;
 }
@@ -81,7 +73,6 @@ header .container .name-designs span{
     padding: 5px;
 
 }
-
 header .container .name-designs span.name{
 background-color: rgb(255 255 255 / 81%) ;
 color: #84006c !important ;
@@ -121,7 +112,6 @@ justify-content: flex-start;
 .container .skills span.projects{
     margin-top: 55px;
 }
-
 .container .skills span.analysis{
     margin-top: 105px;
     left: 450%;
@@ -129,15 +119,11 @@ justify-content: flex-start;
 
  /* and header */
   /* Start About */
-
-
-
   .about .container p{
     color: white;
     font-size: 18px;
   }
     /* And About */
-
     .img-about-grup{
         background-image: url('../img/Group\ 12.png');
         background-size: cover; 
@@ -150,10 +136,6 @@ justify-content: flex-start;
         z-index: 999;
         left: 70%;
     }
-
-
-
-
       .services .container .card{
     padding: 10px;
       text-align: center;
@@ -164,21 +146,17 @@ justify-content: flex-start;
     font-size: 20px;
     color: #d63484;
 }
-
 .services .container .card p{
     font-size: 18px;
     color: rgba(22, 22, 22, 0.93);
     font-family: 'IBM Plex Sans JP', sans-serif !important;
 
 }
-
-
-
-
 .partners .container h2,
 .testimonials .container h2,
 .services .container h2,
-.about .container h2{
+.about .container h2,
+.auxiliary-tools .container h2{
     color: white;
     background-color: #d63484;
     font-size: 30px;
@@ -187,14 +165,10 @@ justify-content: flex-start;
     border-radius: 10px;
     width: fit-content;
 }
-
-
-
 .testimonials .container .card {
 padding: 3rem;
 background: linear-gradient(25deg, #d63484, #cbc9c8);
 border-radius: 12px;
-
 }
 .testimonials .container .card p{
     color: white;
@@ -204,7 +178,6 @@ border-radius: 12px;
     color: white;
     font-size: 18px;
 }
-
 .img-recommendations-grup{
     background-image: url(../img/Group\ 10\ \(1\).svg);
     background-size: cover;
@@ -216,4 +189,18 @@ border-radius: 12px;
     height: 180px;
     z-index: 999;
     left: 0;
+}
+
+
+.img-auxiliary-grup{
+    background-image: url('../img/Group\ 12.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: absolute;
+    top: 360%;
+    width: 186px;
+    height: 158px;
+    z-index: -1;
+    left: 77%;
 }
