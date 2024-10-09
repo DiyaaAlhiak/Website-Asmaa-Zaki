@@ -130,15 +130,7 @@ justify-content: flex-start;
  /* and header */
   /* Start About */
 
-  .about .container h2{
-    color: white;
-    background-color: #d63484;
-    font-size: 30px;
-    text-align: center;
-    padding: 5px;
-    border-radius: 10px;
-    width: fit-content;
-  }
+
 
   .about .container p{
     color: white;
@@ -160,15 +152,7 @@ justify-content: flex-start;
     }
 
 
-    .services .container h2{
-        color: white;
-        background-color: #d63484;
-        font-size: 30px;
-        text-align: center;
-        padding: 5px;
-        border-radius: 10px;
-        width: fit-content;
-      }
+
 
       .services .container .card{
     padding: 10px;
@@ -186,4 +170,50 @@ justify-content: flex-start;
     color: rgba(22, 22, 22, 0.93);
     font-family: 'IBM Plex Sans JP', sans-serif !important;
 
+}
+
+
+
+
+.partners .container h2,
+.testimonials .container h2,
+.services .container h2,
+.about .container h2{
+    color: white;
+    background-color: #d63484;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+
+
+.testimonials .container .card {
+padding: 3rem;
+background: linear-gradient(25deg, #d63484, #cbc9c8);
+border-radius: 12px;
+
+}
+.testimonials .container .card p{
+    color: white;
+    font-size: 20px;
+}
+.testimonials .container .card span{
+    color: white;
+    font-size: 18px;
+}
+
+.img-recommendations-grup{
+    background-image: url(../img/Group\ 10\ \(1\).svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 101rem;
+    width: 75px;
+    height: 180px;
+    z-index: 999;
+    left: 0;
 }
