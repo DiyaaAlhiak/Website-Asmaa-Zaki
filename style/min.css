@@ -163,6 +163,12 @@ justify-content: flex-start;
     border-radius: 10px;
     width: fit-content;
 }
+
+.auxiliary-tools .row img{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;   
+}
 .testimonials .container .card {
 padding: 3rem;
 background: linear-gradient(25deg, #d63484, #cbc9c8);
