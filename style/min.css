@@ -69,9 +69,7 @@ header .container .name-designs{
     z-index: 999;
 }
 header .container .name-designs span{
-
     padding: 5px;
-
 }
 header .container .name-designs span.name{
 background-color: rgb(255 255 255 / 81%) ;
@@ -139,7 +137,7 @@ justify-content: flex-start;
       .services .container .card{
     padding: 10px;
       text-align: center;
-      height: 12rem;
+      height: 16rem;
       z-index: 9999;
 }
 .services .container .card h3{
@@ -169,6 +167,10 @@ justify-content: flex-start;
 padding: 3rem;
 background: linear-gradient(25deg, #d63484, #cbc9c8);
 border-radius: 12px;
+}
+
+.testimonials .container .card img{
+    width: 10%
 }
 .testimonials .container .card p{
     color: white;
