@@ -137,18 +137,29 @@ justify-content: flex-start;
       .services .container .card{
     padding: 10px;
       text-align: center;
-      height: 16rem;
+      /* height: 16rem; */
       z-index: 9999;
+      cursor: pointer;
 }
 .services .container .card h3{
     font-size: 20px;
     color: #d63484;
 }
-.services .container .card p{
-    font-size: 18px;
+.services .container .card .text-card{
+
     color: rgba(22, 22, 22, 0.93);
     font-family: 'IBM Plex Sans JP', sans-serif !important;
 
+
+}
+.show{
+    transition: all 1.5s ease;
+    font-size: 18px;
+    display: block; 
+    height: 8rem;
+}
+.hide{
+    display: none;
 }
 .partners .container h2,
 .testimonials .container h2,
