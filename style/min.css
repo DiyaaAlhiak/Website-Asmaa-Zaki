@@ -115,6 +115,10 @@ justify-content: flex-start;
     left: 450%;
 }
 
+
+
+
+
  /* and header */
   /* Start About */
   .about .container p{
@@ -137,7 +141,7 @@ justify-content: flex-start;
       .services .container .card{
     padding: 10px;
       text-align: center;
-      /* height: 16rem; */
+      height: 16rem;
       z-index: 9999;
       cursor: pointer;
 }
@@ -160,6 +164,7 @@ justify-content: flex-start;
 }
 .hide{
     display: none;
+    
 }
 .partners .container h2,
 .testimonials .container h2,
@@ -176,7 +181,7 @@ justify-content: flex-start;
 }
 
 .auxiliary-tools .row img{
-    /* background-color: white; */
+   
     padding: 10px;
     border-radius: 10px;   
 }
@@ -185,7 +190,15 @@ padding: 3rem;
 background: linear-gradient(25deg, #d63484, #608fe5);
 border-radius: 12px;
 }
-
+ .card .img-card{
+    width: 50%;
+    margin: auto;
+}
+.img-card1{
+    transition: all 1.5s ease;
+    width: 25%;
+    margin: auto; 
+}
 .testimonials .container .card img{
     width: 10%
 }
@@ -282,7 +295,9 @@ border-radius: 8px;
 
 }
 .active{
+   
     transition: all 1.5s ease;
+    width: 30%;
     background-color: rgb(255, 255, 255); /* خلفية بيضاء */
     transform: scale(1.05); /* تكبير طفيف عند تفعيل الكلاس */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* إضافة ظل */

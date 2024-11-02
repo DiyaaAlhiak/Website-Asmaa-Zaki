@@ -21,14 +21,25 @@ window.addEventListener('scroll', function() {
 });
 
 let TextCardID = document.querySelectorAll("#text-card1, #text-card2, #text-card3,#text-card4")
+
 let TextID1 = TextCardID[0]
 let TextID2 = TextCardID[1]
 let TextID3 = TextCardID[2]
 let TextID4 = TextCardID[3]
-function chinge(TextID1){
+
+let ImgesCardID = document.querySelectorAll("#imges-card1, #imges-card2, #imges-card3, #imges-card4") ;
+
+let ImgesCard1 =ImgesCardID[0]
+let ImgesCard2 =ImgesCardID[1]
+let ImgesCard3 =ImgesCardID[2]
+let ImgesCard4 =ImgesCardID[3]
+
+function chinge(TextID1, ImgesCard1){
     if(TextID1){
         TextID1.classList.remove("hide")
         TextID1.classList.add("show")
-        console.log("fffff")
+        ImgesCard1.classList.remove("img-card")
+        ImgesCard1.classList.add("img-card1")
     } 
 }
+
