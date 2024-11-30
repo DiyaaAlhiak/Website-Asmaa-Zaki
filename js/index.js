@@ -2,6 +2,12 @@
 
 const auxiliary_tools = document.querySelectorAll('.auxiliary-tools')
 
+
+window.addEventListener("scroll", function(){
+
+})
+
+
 const options = {
     root: null,
     threshold: 1.0 // عندما يظهر 100% من القسم
@@ -43,3 +49,13 @@ function chinge(TextID1, ImgesCard1){
     } 
 }
 
+
+
+
+window.onload = function() {
+    const whoAmDiv = document.getElementById("whoAm");
+    whoAmDiv.style.display = "block";
+    setTimeout(() => {
+        whoAmDiv.style.opacity = 1; 
+    }, 10); 
+};
