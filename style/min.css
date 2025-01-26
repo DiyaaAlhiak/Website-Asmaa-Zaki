@@ -321,3 +321,60 @@ border-radius: 8px;
     color: #535353;
     font-weight: 900;
 }
+@media  (max-width: 1024px) {
+    header .container nav{
+        width: 93%;
+    }
+    .who-am{
+        top: 25%;
+    }
+}
+
+
+@media  (max-width: 768px) {
+    a{
+        font-size: 12px;
+    }
+    header .container .name-designs{
+        font-size: 12px;
+    }
+    .presentations,.projects,.analysis{
+        font-size: 12px;
+        width: 140px;
+    }
+    .who-am{
+      font-size: 12px;
+    }
+    .about-imge{
+        width: 100%;
+    }
+    .about .container p{
+        font-size: 13px;
+    }
+    .partners .container h2,
+.testimonials .container h2,
+.services .container h2,
+.about .container h2,
+.auxiliary-tools .container h2{
+    font-size: 22px;
+}
+.img-about-grup {
+    top: 49rem
+}
+.logo-non,.logo-human-resources{
+    width: 100%;
+}
+}
+
+@media  (max-width: 426px) {
+
+    .container .skills span,
+    .img-about-grup,
+    .img-grup,.img-about-grup,.img-auxiliary-grup{
+        display: none;;
+    }
+    .who-am{
+        width: 93%;
+        margin-top:1rem;
+    }
+}
