@@ -377,4 +377,12 @@ border-radius: 8px;
         width: 93%;
         margin-top:1rem;
     }
+    ul {
+        display: flex;
+        /* padding: 15px; */
+    }
+    a {
+        font-size: 8px;
+        margin: 3px;
+    }
 }
