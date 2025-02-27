@@ -116,10 +116,6 @@ justify-content: flex-start;
     left: 450%;
 }
 
-
-
-
-
  /* and header */
   /* Start About */
   .about .container p{
@@ -304,7 +300,6 @@ border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-
 .who-am{
     display: none;
     opacity: 0;
@@ -329,7 +324,6 @@ border-radius: 8px;
         top: 25%;
     }
 }
-
 
 @media  (max-width: 768px) {
     a{
@@ -367,7 +361,6 @@ border-radius: 8px;
 }
 
 @media  (max-width: 426px) {
-
     .container .skills span,
     .img-about-grup,
     .img-grup,.img-about-grup,.img-auxiliary-grup{
@@ -379,10 +372,62 @@ border-radius: 8px;
     }
     ul {
         display: flex;
-        /* padding: 15px; */
+        margin-right: 10px;
     }
     a {
         font-size: 8px;
         margin: 3px;
     }
+    img.about-imge {
+        width: 50%;
+        margin-left: 25%; 
+    }
+    .img-footer{
+        display: none;
+    }
+    .logo-non, .logo-human-resources {
+        width: 50%;
+        margin-left: 6rem;
+        margin-bottom: 2rem;
+    }
+    .vision{
+        margin: auto;
+    }
+    .services .container .card{
+        width: 70%;
+        margin: auto;  
+    }
+
+    .auxiliary-tools .row img{
+        transition: all 1.5s ease;
+        width: 30%;
+        background-color: rgb(255, 255, 255); 
+        transform: scale(1.05);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+.smole-icon{
+width: 50% !important;
+}
+  
+}
+
+@media  (max-width: 376px) {
+    span.name{
+        font-size: 10px;
+    }
+    span.designs{
+        font-size: 9px;
+    }
+}
+
+@media  (max-width: 321px) {
+  ul{
+    padding: 0 !important;
+  }
+  .testimonials .container .card p{
+    font-size: 13px;
+  }
+  .testimonials .container .card span{
+    font-size: 15px;
+  }
 }

@@ -1,23 +1,18 @@
 
 
 const auxiliary_tools = document.querySelectorAll('.auxiliary-tools')
-
-
 window.addEventListener("scroll", function(){
-
 })
-
-
 const options = {
     root: null,
-    threshold: 1.0 // عندما يظهر 100% من القسم
+    threshold: 1.0 
 };
 window.addEventListener('scroll', function() {
 
     const targetSection = document.getElementById('Contact');
     const rect = targetSection.getBoundingClientRect();
     const elements = document.querySelectorAll('.imges-auxiliary-tools');
-    // تحقق مما إذا كان القسم مرئيًا
+    
     if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
         console.log(true)
         elements.forEach(itme =>{
@@ -48,9 +43,6 @@ function chinge(TextID1, ImgesCard1){
         ImgesCard1.classList.add("img-card1")
     } 
 }
-
-
-
 
 window.onload = function() {
     const whoAmDiv = document.getElementById("whoAm");
